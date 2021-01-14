@@ -1,0 +1,58 @@
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px 5%;
+    margin-top: 10px;
+    background-color: #66666682;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    height: auto;
+}
+
+textarea:focus,
+input:focus,
+button {
+    outline: 0;
+}
+
+.submit {
+    background-color: #66666682;
+    color: white;
+    font-family: "Lato";
+    font-size: 3.5em;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+.submit:hover {
+    background-color: #66666669;
+    color: white;
+}
+
+.textarea:hover {
+    background-color: #66666669;
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
